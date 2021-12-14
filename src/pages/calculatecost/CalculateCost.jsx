@@ -1,22 +1,18 @@
 import React from 'react';
 import Headerpage from '../../components/header/Headerpage';
-import TopHeader from '../../components/topfooter/TopFooter';
 import Footerpage from '../../components/footer/Footerpage';
 
 
-const Home = () => {
+const CalculateCost = () => {
 
-    
 
     return (
-        <div className='home'>
+        <div className='selfDesign'>
             <Headerpage />
-            <h1>INI HOME</h1>
-            <TopHeader />
+            <h1>Calculate-Cost</h1>
             <Footerpage />
         </div>
     );
 };
 
-export default Home;
-
+export default CalculateCost;
