@@ -7,10 +7,8 @@ const CalculateCost = () => {
 
 
     return (
-        <div className='selfDesign'>
-            <Headerpage />
+        <div className='calculateCost'>
             <h1>Calculate-Cost</h1>
-            <Footerpage />
         </div>
     );
 };

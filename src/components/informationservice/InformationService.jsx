@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 
 import "./InformationService.css";
@@ -49,9 +50,6 @@ const InformationService = () => {
                       <a href="#">Syarat & Ketentuan Berlaku</a>
                     </li>
                     <li>
-                      <a href="#">Lokasi Toko</a>
-                    </li>
-                    <li>
                       <a href="#">Cara Belanja</a>
                     </li>
                     <li>
@@ -83,19 +81,10 @@ const InformationService = () => {
                       <a href="#">How It Works</a>
                     </li>
                     <li>
-                      <a href="#">Affiliates</a>
-                    </li>
-                    <li>
                       <a href="#">Testimonials</a>
                     </li>
                     <li>
                       <a href="#">Contact Us</a>
-                    </li>
-                    <li>
-                      <a href="#">Plan &amp; Pricing</a>
-                    </li>
-                    <li>
-                      <a href="#">Blog</a>
                     </li>
                   </ul>
                 </div>
@@ -132,15 +121,6 @@ const InformationService = () => {
                         rel="noopener noreferrer"
                       >
                         <i class="fa fa-twitter mr-1"></i> Twitter
-                      </a>
-                    </li>
-                    <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-                      <a
-                        href="https://github.com/naologic"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i class="fa fa-github mr-1"></i> Github
                       </a>
                     </li>
                     <li class="list-group-item bg-transparent border-0 p-0 mb-2">

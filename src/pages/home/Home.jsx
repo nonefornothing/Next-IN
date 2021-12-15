@@ -1,18 +1,16 @@
 import React from 'react';
-import Headerpage from '../../components/header/Headerpage';
-import TopHeader from '../../components/topfooter/TopFooter';
+import InformationService from '../../components/informationservice/InformationService';
 import Footerpage from '../../components/footer/Footerpage';
+import './Home.css';
+
 
 
 const Home = () => {
 
-    
-
     return (
         <div className='home'>
-            <Headerpage />
-            <h1>INI HOME</h1>
-            <TopHeader />
+            <h1>INI BODY</h1>
+            <InformationService />
             <Footerpage />
         </div>
     );
